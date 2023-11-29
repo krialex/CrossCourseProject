@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The best jackets for all kinds of weather" />
+    <script src="https://kit.fontawesome.com/ad221245c2.js" crossorigin="*"></script>
+    <title>Rainy Days | Home</title>
+    <link href="css/style2.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for Rainy Days -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3449046,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  <body>
+    <header>
+      <section class="header-container">
+        <div class="header-item">
+          <a href="index.html">
+            <img src="../images/logo_redigert.png" alt="Rainy Days" class="logo">
+          </a>
+        </div>
+            <div class="header-item">
+                <div class="searc-bar"><i class="fas fa-search"></i>
+                    <input type="text" name="searchbar">
+                </div>
+            </div>
+            <div class="header-item">
+            <a href="userprofile.html" class="header-item">
+              <i class="fa-solid fa-user"></i></a>
+            <a href="myfavorites.html" class="header-item">
+              <i class="fa-solid fa-heart"></i></a>
+            <a href="shoppingcart.html" class="header-item">
+              <i class="fa-solid fa-cart-shopping"></i><div id="cartNumber" class="cart-number number-active">0</div></a>
+            </div>
+      </section> 
+         <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+         <input type="checkbox" id="hamburger-menu">
+          <nav>
+             <ul class="container">
+                <li><a href="men.html" class="item">Men</a></li>
+                <li><a href="men.html" class="item">Women</a></li>
+                <li><a href="contact.html" class="item">Contact</a></li>
+                <li><a href="about.html" class="item">About</a></li>
+             </ul>
+          </nav>
+   </header>
+   <main>
+    <section class="main-chart">
+    <section class="big-screen-chart1">
+      <h1 class="h1-black">My cart</h1>
+      <section class="chart">
+        <div class="chart-pic product-pic">
+          <img src="../images/blue-jacket.png" alt="Blue jacket">
+          <h2 class="product-in-chart">The Coat</h2>
+        </div>
+        <div class="the-amount">
+          <i class="fa-solid fa-trash-can" id="trashCan"></i>
+        </div>
+      </section>
+      <div class="delete-item"></div>
+      <form class="form-promocode">
+        <input class="text-promocode" type="text" name="promocode" placeholder="Got promocode?" />
+        <input class="apply-promocode" type="submit" value="apply" />
+      </form>
+      <section class="info-payment">
+        <div class="sub-ship">
+          <p>subtotal</p>
+          <p>shipping</p>
+        </div>
+        <div class="how-much">
+          <p>1250 kr</p>
+          <p>free</p>
+        </div>
+        <div class="total">
+          <p>total</p>
+        </div>
+        <div class="pay">
+          <p>1250kr</p>
+        </div>
+      </section>
+    </section>
+    <section class="big-screen-chart2">
+      <section class="form-wrapper">
+        <div class="log-in">
+          <p>alredy got an account?</p>
+          <form action="submit.php" method="POST" class="flex-form">
+            <input class="log-in-btn" type="submit" value="login" />
+            <input class="log-in-email" type="email" id="email" name="Enter your email" placeholder="Enter your email"/>
+              <div>
+                <input class="checkbox-login" type="checkbox" name="account" value="account" id="account">
+                <label for="account" class="create-account">Create an account</label>
+              </div>
+          </form>
+        </div>
+        <div class="shipping-address">
+          <h3>shipping address</h3>
+          <form class="shipping-form">
+            <input class="contact-info" type="text" name="firstname" id="shippingName" placeholder="first name">
+            <div class="form-error" id="first-name-error">Please insert your name</div>
+            <input class="contact-info" type="text" name="lastname" id="shippingLastName" placeholder="last name">
+            <div class="form-error" id="last-name-error">Please insert your last name</div>
+            <input class="contact-info" type="text" name="address" id="shippingAddress" placeholder="address">
+            <div class="form-error" id="address-error">Where should we send the package?</div>
+            <input class="contact-info" type="text" name="zipcode" id="shippingZip" placeholder="zip code">
+            <div class="form-error" id="zip-error">Please type in your zip-number</div>
+            <input class="contact-info" type="text" name="city" id="shippingCity" placeholder="town/city">
+            <div class="form-error" id="city-error">Which city do we send the package to?</div>
+            <input class="contact-info" type="text" name="country" id="shippingCountry" placeholder="country">
+            <div class="form-error" id="country-error">Please type in your country</div>
+            <a href="delivery.html">
+              <button class="pay_button validate_button">to payment</button>
+            </a>
+          </form>
+        </div>
+      </section>
+    </section>
+  </section>
+    <section class="newsletter">
+      <p>Get our newsletter</p>
+        <form method="post">
+          <input class="newsletter-email" type="email" id="email" name="Enter your email" placeholder="Enter your email"/>
+          <input type="submit" value="subscribe" />
+        </form>
+    </section>
+   </main>
+   <footer>
+    <div>
+      <h4>Rainy Days</h4>
+      <p class="footer_text">Fictive road 32,</p>
+      <p class="footer_text">0574 Fredrikstad</p>
+      <p class="footer_text">Norway</p>
+         <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+         </div>
+    </div>
+     <div>
+      <h4>Site map</h4>
+      <a href="about.html" class="footer_text">About</a>
+      <a href="contact.html" class="footer_text">Contact us</a>
+      <p class="footer_text">Company background</p>
+      <p class="footer_text">Retailors</p>
+     </div>
+     <div>
+      <h4>Info and help</h4>
+      <p class="footer_text">My account</p>
+      <p class="footer_text">Return of items</p>
+      <p class="footer_text">Terms and conditions</p>
+      <p class="footer_text">Coocies and privacy</p>
+      copyright &copy;
+     </div>
+   </footer>
+   <script src="js/shippingform.js"></script>
+   <script src="js/zip-api.js"></script>
+   <script src="js/items-in-cart.js"></script>
+  </body>
+  </html>
