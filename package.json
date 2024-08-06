@@ -1,0 +1,15 @@
+{
+  "name": "crosscourseproject",
+  "version": "1.0.0",
+  "description": "![Screenshot of the home page of the site](/images/ScreenshotHomepage.png \"The home page\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node.js": "^0.0.1-security"
+  }
+}
