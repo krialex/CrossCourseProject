@@ -4,6 +4,7 @@
   "description": "![Screenshot of the home page of the site](/images/ScreenshotHomepage.png \"The home page\")",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "npm run test-e2e-cli",
     "test-e2e": "cypress open",
     "test-e2e-report": "cypress run --reporter mochawesome",
@@ -17,10 +18,12 @@
     "node.js": "^0.0.1-security"
   },
   "devDependencies": {
+    "@eslint/js": "^9.8.0",
     "cypress": "^13.13.2",
     "eslint": "^9.8.0",
     "eslint-plugin-cypress": "^3.4.0",
     "eslint-plugin-jest": "^28.7.0",
+    "globals": "^15.9.0",
     "jest": "^29.7.0"
   }
 }
